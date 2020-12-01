@@ -1,11 +1,11 @@
 <project>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.tuinity</groupId>
-    <artifactId>tuinity-parent</artifactId>
+    <groupId>xyz.australiasmp</groupId>
+    <artifactId>pugengine-parent</artifactId>
     <version>dev-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Tuinity (Parent)</name>
+    <name>PugEngine (Parent)</name>
 
     <repositories>
         <repository>
@@ -23,8 +23,8 @@
         <finalName>${project.artifactId}</finalName>
     </build>
     <modules>
-        <module>Tuinity-API</module>
-        <module>Tuinity-Server</module>
-        <module>Paper${file.separator}Paper-MojangAPI</module> <!-- We don't plan on patching this, so this hack is good enough. -->
+        <module>PugEngine-API</module>
+        <module>PugEngine-Server</module>
+        <module>Paper${file.separator}Paper-MojangAPI</module>
     </modules>
 </project>
