@@ -63,16 +63,3 @@ index 80f165291385f5f54def1a8e8487b209fb06a4a3..1f265fb038fada597b3d4026d6cf4079
                      <scmDirectory>..</scmDirectory>
                  </configuration>
                  <executions>
-diff --git a/src/main/java/org/bukkit/craftbukkit/util/Versioning.java b/src/main/java/org/bukkit/craftbukkit/util/Versioning.java
-index 674096cab190d62622f9947853b056f57d43a2a5..001b1e5197eaa51bfff9031aa6c69876c9a47960 100644
---- a/src/main/java/org/bukkit/craftbukkit/util/Versioning.java
-+++ b/src/main/java/org/bukkit/craftbukkit/util/Versioning.java
-@@ -11,7 +11,7 @@ public final class Versioning {
-     public static String getBukkitVersion() {
-         String result = "Unknown-Version";
- 
--        InputStream stream = Bukkit.class.getClassLoader().getResourceAsStream("META-INF/maven/com.destroystokyo.paper/paper-api/pom.properties");
-+        InputStream stream = Bukkit.class.getClassLoader().getResourceAsStream("META-INF/maven/xyz.australiasmp/pugengine-api/pom.properties"); // Tuinity
-         Properties properties = new Properties();
- 
-         if (stream != null) {
